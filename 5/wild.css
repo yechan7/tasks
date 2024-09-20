@@ -1,0 +1,71 @@
+* {
+    margin: 0 auto;
+}
+a {
+    width: 1200px;
+}
+.b {
+    width: 1200px;
+    height: 500px;
+    position: relative;
+}
+.text {
+    position: absolute; 
+    font-size: 40px;
+    top: 30%;
+    left: 50%;
+    color: white;
+    font-weight: bold;
+    transform: translate( -50%, -50% );
+}
+.text2 {
+    position: absolute;
+    font-size: 20px;
+    top: 43%;
+    left: 50%;
+    color: white;
+    transform: translate( -50%, -50% );
+}
+#box {
+    top: -8%;
+    position: relative;
+    width: 750px;
+    height: 150px;
+    background-color: #DCE2F0;
+}
+.text3 {
+    text-align: center;
+    position: absolute;
+    font-size: 16px;
+    top: 30%;
+    left: 50%;
+    color: black;
+    transform: translate( -50%, -50% );
+}
+.text4 {
+    text-align: center;
+    position: absolute;
+    font-size: 12px;
+    top: 70%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+}
+.buy {
+    background-color: #DCE2F0;
+    position: absolute;
+    font-size: 20px;
+    padding: 10px 20px;
+    top: 70%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    cursor: pointer;
+    border-radius: 10px;
+}
+.buy:hover {
+    background-color: #a4a8b1;
+}
+.c {
+    width: 1200px;
+    height: 250px;
+    background-color: #50586C;
+}
