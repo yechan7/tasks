@@ -14,7 +14,7 @@ a {
     font-size: 40px;
     top: 30%;
     left: 50%;
-    color: white;
+    color: #DCE2F0;
     font-weight: bold;
     transform: translate( -50%, -50% );
 }
@@ -23,7 +23,7 @@ a {
     font-size: 20px;
     top: 43%;
     left: 50%;
-    color: white;
+    color: #DCE2F0;
     transform: translate( -50%, -50% );
 }
 #box {
