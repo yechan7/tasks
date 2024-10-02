@@ -1,0 +1,58 @@
+@charset "UTF-8";
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+#wrap {
+    width: 1200px;
+}
+header {
+    width: 1200px;
+    height: 150px;
+    background-color: red;
+}
+nav {
+    width: 1200px;
+    height: 50px;
+    background-color: green;
+}
+#container {
+    width: 1200px;
+    height: 400px;
+    display: flex;
+}
+aside {
+    margin: 0;
+    width: 400px;
+    height: 400px;
+    background-color: pink;
+    
+}
+main {
+    width: 800px;
+    height: 400px;
+}
+article {
+    width: 800px;
+    height: 300px;
+}
+figure {
+    width: 800px;
+    height: 150px;
+    background-color: yellow;
+}
+p {
+    width: 800px;
+    height: 150px;
+    background-color: yellowgreen;
+}
+section {
+    width: 800px;
+    height: 100px;
+    background-color: blue;
+}
+footer {
+    width: 1200px;
+    height: 100px;
+    background-color: blueviolet;
+}
