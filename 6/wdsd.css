@@ -4,55 +4,90 @@
     padding: 0;
 }
 #wrap {
-    width: 1200px;
+    border-radius: 5px;
+    padding: 10px;
+    width: 420px;
+    height: 660px;
+    background-color: grey;
+    box-sizing: border-box;
 }
 header {
-    width: 1200px;
-    height: 150px;
+    border-radius: 5px;
+    width: 400px;
+    height: 80px;
     background-color: red;
+    box-sizing: border-box;
 }
 nav {
-    width: 1200px;
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 400px;
     height: 50px;
     background-color: green;
+    box-sizing: border-box;
 }
 #container {
-    width: 1200px;
-    height: 400px;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 400px;
+    height: 380px;
     display: flex;
+    box-sizing: border-box;
 }
 aside {
     margin: 0;
-    width: 400px;
-    height: 400px;
+    border-radius: 5px;
+    width: 90px;
+    height: 380px;
     background-color: pink;
-    
+    box-sizing: border-box;
+    box-sizing: border-box;
 }
 main {
-    width: 800px;
-    height: 400px;
+    margin-left: 10px;
+    width: 300px;
+    border-radius: 5px;
+    height: 380px;
+    background-color: skyblue;
+
 }
-article {
-    width: 800px;
-    height: 300px;
+#wow {
+    margin-top: 60px;
+    border-radius: 5px;
+    width: 270px;
+    height: 250px;
+    background-color: cyan;
 }
 figure {
-    width: 800px;
-    height: 150px;
+    position: relative;
+    top: 50px;
+    border-radius: 5px;
+    width: 250px;
+    height: 90px;
     background-color: yellow;
 }
 p {
-    width: 800px;
-    height: 150px;
+    position: relative;
+    top: 60px;
+    border-radius: 5px;
+    width: 250px;
+    height: 90px;
     background-color: yellowgreen;
 }
 section {
-    width: 800px;
-    height: 100px;
+    margin-top: 5px;
+    border-radius: 5px;
+    width: 270px;
+    height: 50px;
     background-color: blue;
+    box-sizing: border-box;
 }
 footer {
-    width: 1200px;
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 400px;
     height: 100px;
     background-color: blueviolet;
+    box-sizing: border-box;
 }
