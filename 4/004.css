@@ -2,7 +2,7 @@
     margin: 0;
     font-family: 'Arial', sans-serif;
 }
-.room {
+div {
     display: flex;
     justify-content: center;
     border-left: 1px solid black;
@@ -11,7 +11,7 @@
     font-size: 18px;
     box-sizing: border-box;
 }
-.verandah {
+.room1 {
     width: 658px;
     height: 61px;
     position: absolute;
@@ -19,7 +19,7 @@
     border-bottom: 1px solid black;
     left: 290px;
 }
-.mainroom {
+.room2 {
     width: 220px;
     position: absolute;
     border-bottom: 1px solid black;
@@ -27,7 +27,7 @@
     left: 290px;
     height: 150px;
 }
-.livingroom {
+.room3 {
     width: 658px;
     position: absolute;
     border-bottom: 1px solid black;
@@ -35,7 +35,7 @@
     left: 290px;
     height: 300px;
 }
-.smallroom1 {
+.room4 {
     width: 200px;
     position: absolute;
     border-bottom: 1px solid black;
@@ -43,7 +43,21 @@
     top: 60px;
     height: 120px;
 }
-.smallroom2 {
+.room5 {
+    width: 200px;
+    position: absolute;
+    top: 209.5px;
+    left: 290px;
+    height: 150.5px;
+}
+.room6 {
+    width: 120px;
+    position: absolute;
+    top: 179px;
+    left: 828px;
+    height: 34.5px;
+}
+.room7 {
     width: 170px;
     position: absolute;
     border-top: 1px solid black;
@@ -51,21 +65,7 @@
     left: 778px;
     height: 147px;
 }
-.kitchen {
-    width: 200px;
-    position: absolute;
-    top: 209.5px;
-    left: 290px;
-    height: 150.5px;
-}
-.bathroom {
-    width: 120px;
-    position: absolute;
-    top: 179px;
-    left: 828px;
-    height: 34.5px;
-}
-.entrance {
+.room8 {
     width: 150px;
     position: absolute;
     border-top: 1px solid black;

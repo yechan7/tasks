@@ -1,16 +1,15 @@
-@charset "UTF-8";
 * {
     margin: 0 auto;
     padding: 0;
 }
-#rah {
+.rah {
     width: 800px;
     height: 100px;
     background-color: grey;
     display: flex;
     align-items: center;
 }
-#noti {
+.noti {
     width: 180px;
     height: 50px;
     border-radius: 10px;
@@ -22,14 +21,14 @@
     display: flex;
     align-items: center;
 }
-#o {
+.o {
     line-height: 25px;
     width: 25px;
     height: 25px;
     background-color: grey;
     border-radius: 50%;
 }
-#inbox {
+.inbox {
     line-height: 50px;
     width: 80px;
     height: 50px;
@@ -40,7 +39,7 @@
     font-weight: bolder;
     box-shadow: 2px 2px 2px 0px black;
 }
-#badge1 {
+.badge1 {
     line-height: 20px;
     font-size: 15px;
     width: 35px;
@@ -49,7 +48,7 @@
     border-radius: 30px;
     transform: translate(45px,-60px);
 }
-#profile {
+.profile {
     line-height: 50px;
     width: 100px;
     height: 50px;
@@ -60,7 +59,7 @@
     font-weight: bolder;
     box-shadow: 2px 2px 2px 0px black;
 }
-#badge2 {
+.badge2 {
     line-height: 20px;
     font-size: 15px;
     width: 25px;
