@@ -1,0 +1,49 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+div {
+    width: 1000px;
+    height: 100px;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 25px;
+    font-weight: bold;
+}
+button {
+    width: 300px;
+    height: 70px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    font-weight: bold;
+}
+.a {
+    background-color: orange;
+}
+.a:hover {
+    background-color: violet;
+}
+.b {
+    background-color: skyblue;
+}
+.b:active {
+    background-color: blue;
+}
+.c {
+    background-color: greenyellow;
+    position: relative;
+}
+.cc:focus {
+    background-color: green;
+}
+.d {
+    background-color: pink;
+    position: relative;
+}
+.d:focus-within  {
+    background-color: lightgoldenrodyellow;
+}
