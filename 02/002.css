@@ -1,23 +1,29 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
 .container {
     background-color: #aef8d8;
     padding: 20px;
     border-radius: 20px;
-    display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
     width: 450px;
     margin: 0 auto;
 }
-
+ul {
+    display: flex;
+}
 .list {
     background-color: white;
     border-radius: 15px;
-    width: 100px;
+    width: 80px;
     height: 40px;
     line-height: 40px;
     font-size: 18px;
     text-align: center;
     color: #000;
     margin: 0 5px;
+    list-style: none;
 }
