@@ -3,14 +3,14 @@
     margin: 0 auto;
     padding: 0;
 }
-#a {
+.a {
     width: 800px;
     height: 100px;
     background-color: skyblue;
     display: flex;
     align-items: center;
 }
-#basic {
+.basic {
     width: 150px;
     height: 50px;
     border-radius: 7px;
@@ -18,11 +18,11 @@
     background-color: #f5fac5;
     font-size: 17px;
 }
-#basic:hover {
+.basic:hover {
     background-color: #c7cba3;
     cursor: pointer;
 }
-#gradation {
+.gradation {
     width: 150px;
     height: 50px;
     border-radius: 7px;
@@ -30,11 +30,11 @@
     background: linear-gradient(90deg, cyan, 50%, pink);
     font-size: 17px;
 }
-#gradation:hover {
+.gradation:hover {
     background: linear-gradient(90deg, rgb(0, 180, 180), 50%, rgb(201, 148, 157));
     cursor: pointer;
 }
-#img {
+.img {
     width: 150px;
     height: 50px;
     border-radius: 7px;
@@ -43,14 +43,14 @@
     align-items: center;
     font-size: 17px;
 }
-#img:hover {
+.img:hover {
     background-color: #c2c2c2;
     cursor: pointer;
 }
-#ccc {
+.ccc {
     text-align: center;
 }
-#line {
+.line {
     width: 150px;
     height: 50px;
     border-radius: 7px;
@@ -60,7 +60,7 @@
     border-style: solid;
     color: red;
 }
-#line:hover {
+.line:hover {
     background-color: red;
     color: azure;
     cursor: pointer;
